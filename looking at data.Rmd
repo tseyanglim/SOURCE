@@ -1,0 +1,59 @@
+---
+title: "Looking at OSM Output"
+author: "Catherine DiGennaro"
+date: "5/17/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+
+```{r}
+values <- Sys.glob("X_final*")
+sens <- Sys.glob("X_sens*")
+```
+
+```{r}
+for(i in values) {
+  filename <- paste0("values_", str_extract(i, "Base.*?(?=_)"))
+  #print(filename)
+  assign(filename, read.table(i, header=TRUE, sep='\t'))
+}
+
+for(i in sens) {
+  filename <- paste0("sens_", str_extract(i, "Base.*?(?=_)"))
+  #print(filename)
+  assign(filename, read.table(i, header=TRUE, sep='\t'))
+}
+```
+
+```{r}
+values.list <- lapply(ls(pattern="values_Base*"), function (x) get(x))
+filtered_values_list <- lapply(values.list, function (x) filter(x, Time %in% c("Cumulative overdose deaths", "Cumulative UD person years")))
+
+sens.list <- lapply(ls(pattern="sens_Base*"), function(x) get(x))
+filtered_sens_list <- lapply(sens.list, function (x) filter(x, Var %in% c("Cumulative overdose deaths", "Cumulative UD person years")))
+```
+
+BupProv
+```{r}
+values_BupProv_filtered <- values_BaseBupProv %>% 
+  filter(Time %in% c("Cumulative overdose deaths", "Cumulative UD person years")) %>% 
+  pivot_longer(-Time, names_to ="year")
+
+sens_BupProv_filtered <- sens_BaseBupProv %>% 
+  filter(Var %in% c("Cumulative overdose deaths", "Cumulative UD person years"),
+         Perc %in% c(2.5, 97.5)) %>% 
+  pivot_longer(-c(Var, Perc), names_to ="year")
+```
+
+
+
+
+
+
+
+
