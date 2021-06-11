@@ -76,7 +76,7 @@
 		"outvars": ["Cumulative overdose deaths", "Cumulative UD person years"], 
 		"styear": 1999, 
 		"endyear": 2019, 
-		"projvars": ["Total overdose deaths", "Total with OUD"], 
+		"projvars": ["Total overdose deaths", "Total with UD"], 
         "projvars_cumulative": ["Projected cumulative OUD person years","Projected cumulative overdose deaths"],
 		"compperc": 50.0, 
 		"projyear": 2031, 
