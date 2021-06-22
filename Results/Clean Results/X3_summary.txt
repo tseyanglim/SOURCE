@@ -1,0 +1,47 @@
+Exogenous inputs	10
+Calibration time series	15
+MCMC total	2500000
+MCMC burnin	1500000
+MCMC sample	1000000
+MCMC PSRF < 1.2	0.9813200498132005	< 1.1	0.9302615193026152
+Sensitivity sample	5000
+Sensitivity analysis range	0.1
+Syndata sets	20
+Estimated parameters (no ISCs)	53
+Initial stock corrections	20
+Cumulative OD deaths without fentanyl	379518
+Cumulative synth-involved OD deaths DATA	170563
+Confidence interval estimated params	0.9
+Confidence interval estimated params	0.95
+Base-Cnst delta for Projected cumulative overdose deaths	-0.04764694395625854
+Base-Cnst delta for Projected cumulative UD person years	0.09676042242579905
+
+
+Fixed parameter values
+Perceived risk weight NFOD	0.1
+Average prescription duration	0.059
+OxyContin withdrawal magnitude	0.45
+Tx seeking rate HUD relative to Rx OUD no H	4.843
+Bup effective capacity decay constant	5.3e-05
+Bup effective capacity per provider base	50.0
+Bup effective capacity rampup time	9.0
+Bup rampup start year	2001.5
+MMT OTP capacity utilization NSSATS	0.866
+Viv capacity utilization NSSATS	0.88
+Tx average duration Bup	0.61
+Tx average duration MMT	1.0
+Tx average duration Viv	0.22
+NonOD death rate HUD or OUD	0.0143
+Effect of MOUD Tx on NonOD death rate[MMT]	0.37
+Effect of MOUD Tx on NonOD death rate[Bup]	0.54
+Effect of MOUD Tx on NonOD death rate[Viv]	0.926
+Effect of MOUD Tx on OD death rate[MMT]	0.295
+Effect of MOUD Tx on OD death rate[Viv]	0.439
+Remission rate HUD no MOUD Tx	0.135
+Probability OD witnessed	0.764
+Probability of calling emergency services	0.424
+
+
+Relative Tx seeking rates
+OUD	1	0.625	0.05625	0.31875
+HUD	4.843	2.66365	1.74348	0.43587

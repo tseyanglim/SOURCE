@@ -1,0 +1,13 @@
+FINAL TIME = 2031
+Policy activation time = 2021
+Policy rampup duration = 3
+Policy change patients with opioid prescription = -0.10
+Policy change initiating NDHU no Rx = -0.1
+Policy change initiation rate heroin with Rx misuse = -0.1
+Policy change Nx kits distributed = 0.1
+Policy change fentanyl effect on OD rate = -0.1
+Policy change social influence strength relapse = 0.08
+Policy change relapse rate = -0.1
+Policy change HUD no Rx OUD development rate = -0.1
+Policy change HUD with Rx OUD development rate = -0.1
+Policy change Rx OUD development rate = -0.1
