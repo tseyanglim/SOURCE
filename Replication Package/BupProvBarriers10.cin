@@ -1,0 +1,4 @@
+FINAL TIME = 2031
+Policy activation time = 2021
+Policy rampup duration = 3
+Policy change Bup effective capacity decay constant = -0.1
