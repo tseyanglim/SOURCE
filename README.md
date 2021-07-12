@@ -7,7 +7,7 @@ For any questions please contact [Tse Yang Lim](mailto:tylim@mit.edu)
 Contains the Vensim model files and Python code (in .ipynb and .py formats) used for model estimation, analysis, and graphing of results. This is the 'working' directory of this repo.
 
 ### Data
-Contains Excel data and documentation files, as well as data pre-processing code (CELIA UPDATE THIS DESCRIPTION LATER).
+Contains Excel data and documentation files, as well as data pre-processing SAS code. Explanations of data calculations, assumptions, literature reviews, etc. are in these files.
 
 ### Replication Package
 Minimal file and code package needed to replicate the analysis 'from scratch', without any pre-generated results or figures. **Use this to directly replicate the complete model estimation & analysis process.** To do so:
