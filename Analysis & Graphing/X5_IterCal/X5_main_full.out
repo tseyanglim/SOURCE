@@ -1,0 +1,108 @@
+:COMSYS After 1514406 simulations
+:COMSYS Best payoff is -60512.7
+:COMSYS Normally terminated optimization
+:OPTIMIZER=Powell
+:SENSITIVITY=Off
+:MULTIPLE_START=RRandom
+:RANDOM_NUMBER=Default
+:SEED=1
+:OUTPUT_LEVEL=On
+:TRACE=Off
+:MAX_ITERATIONS=1000
+:RESTART_MAX=10
+:PASS_LIMIT=2
+:FRACTIONAL_TOLERANCE=1e-07
+:TOLERANCE_MULTIPLIER=21
+:ABSOLUTE_TOLERANCE=1
+:SCALE_ABSOLUTE=1
+:VECTOR_POINTS=25
+:MCINITMETHOD=0
+:MCPAYOFFTYPE=0
+:MCRECORD=0
+:MCSCHEDULE=0
+:MCLIMIT=0
+:MCBURNIN=0
+:MCNCHAINS=2
+:MCOUTLIER=0.05
+:MCGAMMA=1
+:MCEPSILON=0.01
+:MCDELTA=0.0001
+:MCJUMP=0.05
+:MCUPDATEPAIRS=2
+:MCXOVER=0.2
+:MCTEMP=1
+:MCFTEMP=1
+:MCCOOLING=1000
+1e-06 <= ADF effect strength initiating heroin with Rx OUD = 1e-06  <= 1
+0.8 <= Base survival probability H OD relative to Rx = 0.975755  <= 1
+0.9 <= Base survival probability Rx OD = 0.972733  <= 0.99
+0.05 <= Developing HUD rate no Rx OUD  = 0.0836417  <= 0.5
+0.05 <= Developing HUD rate with Rx OUD  = 0.802248  <= 1.5
+0.01 <= Developing Rx OUD rate  = 0.0290821  <= 0.3
+0.2 <= Fentanyl effect on base survival max relative to H = 0.638811  <= 0.8
+2 <= Fentanyl effect on OD rate H max = 2  <= 7
+0.5 <= Fraction Nx kits to H users  = 0.942533  <= 0.95
+1e-06 <= Heroin availability strength developing HUD = 1e-06  <= 2
+1e-06 <= Heroin availability strength initiating NDHU no Rx = 1.13669e-06  <= 2
+1e-06 <= Heroin availability strength net quit NDHU = 1.18878  <= 2
+0.8 <= Initial stock correction[RXM] = 1.19796  <= 1.2
+0.8 <= Initial stock correction[NDH] = 1.2  <= 1.2
+0.8 <= Initial stock correction[OUB] = 1.13493  <= 1.2
+0.8 <= Initial stock correction[OUM] = 0.8  <= 1.2
+0.8 <= Initial stock correction[OUV] = 0.805671  <= 1.2
+0.8 <= Initial stock correction[OUT] = 1.18339  <= 1.2
+0.8 <= Initial stock correction[OUR] = 0.8  <= 1.2
+0.8 <= Initial stock correction[OUS] = 0.8  <= 1.2
+0.8 <= Initial stock correction[OHB] = 1.06199  <= 1.2
+0.8 <= Initial stock correction[OHM] = 0.8  <= 1.2
+0.8 <= Initial stock correction[OHV] = 0.99185  <= 1.2
+0.8 <= Initial stock correction[OHT] = 1.2  <= 1.2
+0.8 <= Initial stock correction[OHR] = 0.8  <= 1.2
+0.8 <= Initial stock correction[OHS] = 0.8  <= 1.2
+0.8 <= Initial stock correction[HUB] = 1.09846  <= 1.2
+0.8 <= Initial stock correction[HUM] = 1.2  <= 1.2
+0.8 <= Initial stock correction[HUV] = 1.10004  <= 1.2
+0.8 <= Initial stock correction[HUT] = 0.8  <= 1.2
+0.8 <= Initial stock correction[HUR] = 1.09556  <= 1.2
+0.8 <= Initial stock correction[HUS] = 0.8  <= 1.2
+40000 <= Initiating heroin no Rx base  = 119482  <= 160000
+1.8e+06 <= Initiating Rx misuse diverted base  = 1.91827e+06  <= 2.4e+06
+0.004 <= Initiation rate heroin with Rx misuse  = 0.0160616  <= 0.03
+2 <= Initiation rate heroin with Rx OUD relative to Rx misuse = 3.72547  <= 5
+0.001 <= Initiation rate Rx misuse own Rx  = 0.0359968  <= 0.1
+0.01 <= Net quit rate heroin with Rx misuse  = 0.01  <= 0.8
+0.01 <= Net quit rate heroin with Rx OUD  = 0.01  <= 0.2
+0.05 <= Net quit rate NDHU  = 0.5  <= 0.5
+0.05 <= Net quit rate Rx misuse = 0.157088  <= 0.5
+0.1 <= NSDUH misuse redefinition fixed effect = 0.481087  <= 0.5
+0.0001 <= Nx kit distribution efficiency = 0.000401191  <= 0.002
+0.05 <= Overdose rate base HUD = 0.144471  <= 0.2
+0.25 <= Overdose rate NDHU relative to HUD = 0.25  <= 1
+0.001 <= Overdose rate base Rx misuse = 0.001  <= 0.025
+0.025 <= Overdose rate base Rx OUD = 0.253943  <= 0.4
+0.005 <= Overdose rate synth baseline = 0.00547847  <= 0.1
+1e-06 <= Perceived risk strength initiating heroin with Rx use = 0.956185  <= 2
+1e-06 <= Perceived risk strength initiating NDHU no Rx = 0.186424  <= 2
+1e-06 <= Perceived risk strength initiating Rx misuse diverted = 0.664737  <= 2
+1e-06 <= Perceived risk strength initiating Rx misuse own Rx = 0.757846  <= 2
+1e-06 <= Perceived risk strength net quit heroin with Rx OUD = 1e-06  <= 0.5
+1e-06 <= Perceived risk strength net quit NDHU = 1e-06  <= 0.5
+1e-06 <= Perceived risk strength net quit NDHU with Rx = 1e-06  <= 0.5
+1e-06 <= Perceived risk strength net quit Rx misuse = 1.00685  <= 2
+0.01 <= Relapse rate HUD = 0.208173  <= 0.5
+0.25 <= Relapse rate Rx OUD relative to HUD = 0.25  <= 1
+1 <= Remission rate Rx OUD relative to HUD = 1.0006  <= 2
+1e-06 <= Rx availability strength developing Rx OUD = 1.21325  <= 2
+1e-06 <= Rx availability strength initiating Rx misuse = 0.449245  <= 2
+1e-06 <= Rx availability strength net quit Rx misuse = 1.99961  <= 2
+1e-06 <= Rx vs H availability strength developing HUD with Rx OUD = 1.24543  <= 2
+1e-06 <= Rx vs H availability strength initiating heroin with Rx OUD = 1e-06  <= 2
+1e-06 <= Rx vs H availability strength initiating NDHU with Rx = 1.05025  <= 2
+1e-06 <= Social influence strength developing HUD = 1e-06  <= 2
+1e-06 <= Social influence strength developing Rx OUD = 1e-06  <= 2
+1e-06 <= Social influence strength initiating heroin with Rx OUD = 2  <= 2
+1e-06 <= Social influence strength initiating NDHU no Rx = 0.0063496  <= 2
+1e-06 <= Social influence strength initiating NDHU with Rx = 1.49312  <= 2
+1e-06 <= Social influence strength initiating Rx misuse = 0.650476  <= 2
+3 <= Time to stabilize remission = 12.02  <= 20
+0.1 <= Tx seeking rate Rx OUD no H total = 0.529546  <= 1
