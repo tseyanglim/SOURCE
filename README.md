@@ -1,4 +1,7 @@
-# PROMISE
+# SOURCE
+*Simulation of Opioid Use, Response, Consequences, and Effects)*
+(Note: Automatic redirect from github.com/tseyanglim/PROMISE)
+
 Model and code files for FDA opioid systems model (UPDATE WITH MORE DETAIL ONCE PAPERS SUBMITTED).
 
 For any questions please contact [Tse Yang Lim](mailto:tylim@mit.edu)
