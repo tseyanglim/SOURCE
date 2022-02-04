@@ -2,7 +2,7 @@
 #### *Simulation of Opioid Use, Response, Consequences, and Effects*
 ###### (Note: Automatic redirect from [github.com/tseyanglim/PROMISE](https://github.com/tseyanglim/PROMISE))
 
-## NOTE: this repo no longer actively maintained, please see [github.com/FDA/SOURCE](https://github.com/FDA/SOURCE) for live / active version.
+### NOTE: this repo no longer actively maintained, please see [github.com/FDA/SOURCE](https://github.com/FDA/SOURCE) for live / active version.
 
 For any questions please contact [Tse Yang Lim](mailto:tylim@mit.edu)
 
